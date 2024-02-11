@@ -3,7 +3,67 @@ guid: 14eb4f8eaf9767241b160e3e317abcf7
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat12
+    second: {fileID: -2669957238963622279, guid: 7492fb9700c96b343af3a0f612a70075, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat15
+    second: {fileID: 269840283077852131, guid: 360ad20165321e741a227fbca421e034, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat16
+    second: {fileID: -3324096961576636649, guid: 89b46fabd338e4d46ad29f5d6726438a, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat17
+    second: {fileID: -8911499558433741390, guid: 360ad20165321e741a227fbca421e034, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat19
+    second: {fileID: 8013685226820913702, guid: a92efdf124a16e546995b1ff5ba8ec6e, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat20
+    second: {fileID: -3072155499180562189, guid: a92efdf124a16e546995b1ff5ba8ec6e, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat21
+    second: {fileID: -6443035220513836574, guid: 07ce3891d8b015f44b5301d1d85bf1f3, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat22
+    second: {fileID: 6455781528844964010, guid: 07ce3891d8b015f44b5301d1d85bf1f3, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat23
+    second: {fileID: -1642654745573217572, guid: 360ad20165321e741a227fbca421e034, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat24
+    second: {fileID: -580896390898798407, guid: 07ce3891d8b015f44b5301d1d85bf1f3, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat8
+    second: {fileID: -870952796764628979, guid: 89b46fabd338e4d46ad29f5d6726438a, type: 3}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: mat9
+    second: {fileID: 2646190618815262879, guid: 758f71f4e6fbaae4eb5ddb8855beb192, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
