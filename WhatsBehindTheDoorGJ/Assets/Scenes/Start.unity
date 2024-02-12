@@ -1107,7 +1107,7 @@ GameObject:
   - component: {fileID: 372505013}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4485,6 +4485,7 @@ GameObject:
   - component: {fileID: 1265612136}
   - component: {fileID: 1265612135}
   - component: {fileID: 1265612134}
+  - component: {fileID: 1265612138}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -4578,6 +4579,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1265612138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1265612133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c4c6d7486267c542972e3f0813b5d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myDoor: {fileID: 1649090752}
+  openTrigger: 1
 --- !u!1 &1304695657 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6025209625986161722, guid: 14eb4f8eaf9767241b160e3e317abcf7, type: 3}
