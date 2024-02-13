@@ -172,7 +172,7 @@ Terrain:
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: 7544bb4bf011e1e45a7c2c1f9becf452, type: 2}
   m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
+  m_TreeBillboardDistance: 2000
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
   m_DetailObjectDistance: 800
@@ -327,7 +327,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6992962242376428076, guid: 48424edd4f1c9064aa47f741f42614a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 240.2
+      value: 99.7
       objectReference: {fileID: 0}
     - target: {fileID: 6992962242376428076, guid: 48424edd4f1c9064aa47f741f42614a1, type: 3}
       propertyPath: m_LocalPosition.z
