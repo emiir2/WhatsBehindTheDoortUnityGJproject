@@ -136,6 +136,11 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 22934644}
   m_Enabled: 1
+--- !u!143 &22934652 stripped
+CharacterController:
+  m_CorrespondingSourceObject: {fileID: 5242307949894006420, guid: 48424edd4f1c9064aa47f741f42614a1, type: 3}
+  m_PrefabInstance: {fileID: 2031330667}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &65398939
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,6 +1216,10 @@ PrefabInstance:
       propertyPath: healthBar
       value: 
       objectReference: {fileID: 1039836703}
+    - target: {fileID: 749476867619219415, guid: 48424edd4f1c9064aa47f741f42614a1, type: 3}
+      propertyPath: characterController
+      value: 
+      objectReference: {fileID: 22934652}
     - target: {fileID: 4219959744309314505, guid: 48424edd4f1c9064aa47f741f42614a1, type: 3}
       propertyPath: m_Name
       value: Player

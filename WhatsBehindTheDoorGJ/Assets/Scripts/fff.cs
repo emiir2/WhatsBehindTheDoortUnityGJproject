@@ -16,8 +16,8 @@ public class SC_FPSController : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
     public HealthBar healthBar;
+    public CharacterController characterController;
 
-    CharacterController characterController;
     Vector3 moveDirection = Vector3.zero;
     float rotationX = 0;
 
@@ -26,6 +26,13 @@ public class SC_FPSController : MonoBehaviour
 
     void Start()
     {
+        Cursor.visible = false;
+        characterController = GetComponent<CharacterController>();
+        // Eðer characterController null ise, uygun bir hata mesajý yazýlabilir
+        if (characterController == null)
+        {
+            Debug.LogError("CharacterController bulunamadý!");
+        }
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
 
